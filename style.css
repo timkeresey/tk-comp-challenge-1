@@ -1,0 +1,43 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 50px 50px 600px;
+  grid-template-areas:
+    "header header header header"
+    "header header header header"
+    "main main main main"
+
+}
+
+
+ .header {
+  grid-area: header;
+  background-color: rgb(107, 140, 205);
+  font-family: sans-serif;
+}
+
+.nav-bar {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.profile-button {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+
+.logo {
+  grid-area: 2 / 2;
+  display: flex;
+}
+
+.img {
+  justify-content: flex-end;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
