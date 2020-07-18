@@ -67,6 +67,7 @@ h1 {
 .box {
 background-color: rgba(28, 44, 190, 0.38);
 border-radius: 5%;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 display: grid;
 grid-template-columns: 1fr;
 grid-template-rows: 2fr 1fr 1fr 1fr 2fr;
@@ -76,11 +77,21 @@ grid-template-rows: 2fr 1fr 1fr 1fr 2fr;
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
   background-image: url(https://i.imgur.com/Kx56uhl.jpg?1);
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50% 50%;
+}
+
+.button {
+  background-color: rgba(3, 255, 96, 0.92);
+  margin: .75em;
+  border-radius: 50px;
+  border: 3px solid black;
+
 }
 
 #imgtxt {
   color: white;
+  grid-column: 4;
+  grid-row: 1;
 }
