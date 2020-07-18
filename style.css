@@ -29,8 +29,29 @@
 
 }
 
-.box-container {
+.title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: lightgrey;
+}
+
+h1 {
+  margin-left: .5em;
+}
+
+.main-section {
+  height: 65em;
+  width: 1fr;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  background-color: lightgrey;
+}
+
+.box {
+background-color: rgba(28, 44, 190, 0.38);
+
 }
