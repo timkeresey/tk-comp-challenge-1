@@ -1,3 +1,7 @@
+.body {
+  background-color: lightgrey;
+}
+
 .header1 {
   background-color: rgb(107, 140, 205);
   font-family: sans-serif;
@@ -8,7 +12,7 @@
 }
 
 .profile-button {
-
+  margin: 1em;
 }
 
 .header2 {
@@ -21,12 +25,19 @@
 }
 
 .nav-bar {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  height: 4em;
+  width: 30em;
+  margin-left: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+  ;
 }
 
-.logo {
 
+
+.logo {
+  margin: 1em;
 }
 
 .title {
@@ -41,8 +52,10 @@ h1 {
 }
 
 .main-section {
-  height: 65em;
+  height: 85em;
   width: 1fr;
+  margin-left: 1em;
+  margin-right: 1em;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -53,5 +66,21 @@ h1 {
 
 .box {
 background-color: rgba(28, 44, 190, 0.38);
+border-radius: 5%;
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 2fr 1fr 1fr 1fr 2fr;
+}
 
+.roscoe {
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  background-image: url(https://i.imgur.com/Kx56uhl.jpg?1);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#imgtxt {
+  color: white;
 }
