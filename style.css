@@ -1,9 +1,10 @@
 .body {
   background-color: lightgrey;
+  margin: 0px;
 }
 
 .header1 {
-  background-color: rgb(107, 140, 205);
+  background-color: rgba(9, 124, 110, 0.98);
   font-family: sans-serif;
   height: 4em;
   display: flex;
@@ -11,12 +12,9 @@
   align-items: flex-start;
 }
 
-.profile-button {
-  margin: 1em;
-}
 
 .header2 {
-  background-color: rgb(107, 140, 205);
+  background-color: rgba(9, 124, 110, 0.98);
   font-family: sans-serif;
   height: 4em;
   display: flex;
@@ -24,17 +22,34 @@
   align-items: flex-end;
 }
 
+.profile-button {
+  margin-right: 1em;
+  font-family: 'kanit', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1em;
+  color: rgba(240, 177, 16, 1);
+}
+
+.img {
+  height: 50px;
+  width: 50px;
+  border-radius: 40%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .nav-bar {
   height: 4em;
   width: 30em;
   margin-left: 2em;
+  font-weight: bold;
+  font-size: 120%;
+  color: rgba(240, 177, 16, 1);
+  font-family: 'kanit', sans-serif;
   display: flex;
   justify-content: space-between;
-  align-items: center
-  ;
+  align-items: center;
 }
-
-
 
 .logo {
   margin: 1em;
@@ -45,10 +60,12 @@
   justify-content: flex-start;
   align-items: center;
   background-color: lightgrey;
+  color: rgba(40, 134, 134, 0.91)
 }
 
 h1 {
   margin-left: .5em;
+  /* font-family: 'kanit', sans-serif; */
 }
 
 .main-section {
@@ -65,33 +82,96 @@ h1 {
 }
 
 .box {
-background-color: rgba(28, 44, 190, 0.38);
-border-radius: 5%;
-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-display: grid;
-grid-template-columns: 1fr;
-grid-template-rows: 2fr 1fr 1fr 1fr 2fr;
+  color: rgb(99, 99, 99);
+  background-color: rgba(250, 187, 94, 1);
+  border-radius: 5%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 1fr 1fr 1fr 2fr;
 }
 
 .roscoe {
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
-  background-image: url(https://i.imgur.com/Kx56uhl.jpg?1);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 50% 50%;
 }
 
+.a {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.imgur.com/Kx56uhl.jpg?1);
+}
+
+.b {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.imgur.com/5rScSgr.jpg?1)
+}
+
+.c {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.imgur.com/4i7elIv.jpg?1)
+}
+
+.d {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.imgur.com/olijPu5.jpg?1)
+}
+
+.e {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.imgur.com/UVmoTe1.jpg?1)
+}
+
+.f {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.imgur.com/cGIC04v.jpg?1)
+}
+
+.g {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.imgur.com/y2qqNIC.jpg?1)
+}
+
+.h {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.imgur.com/UFrTTkI.jpg?1)
+}
+
 .button {
-  background-color: rgba(3, 255, 96, 0.92);
+  background-color: rgba(36, 221, 221, 0.69);
   margin: .75em;
   border-radius: 50px;
-  border: 3px solid black;
-
+  border: 3px solid white;
 }
+
+.fa-bone {
+  color: white;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  margin-left: 1em;
+}
+
+.site {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(251, 214, 141, 1);
+  margin: .5em;
+}
+
+.text {
+  margin-left: : 1em;
+  display: flex;
+}
+
+
 
 #imgtxt {
   color: white;
+  margin-right: .5em;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
   grid-column: 4;
   grid-row: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
