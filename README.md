@@ -14,4 +14,12 @@ The compostion provided included a header, a main body section, and no footer. T
 
 The main body section is made up of a 4 by 2 grid of cards. The cards are made up of an image, a button, text, and a link.
 
-<https://frontend.turing.io/assets/images/static-comp-challenge-2.jpg>
+<img src='https://i.imgur.com/eGCgRqZ.png'>
+
+## My Composition
+
+My composition features my dog Roscoe and emulates the same layout as the template, having a header and main section with cards.
+The cards feature the same layout with a button, text, and link.
+
+<img src='https://i.imgur.com/QSD3zW2.png'>
+<img src='https://i.imgur.com/w3V2SwM.png'>
