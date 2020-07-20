@@ -23,3 +23,12 @@ The cards feature the same layout with a button, text, and link.
 
 <img src='https://i.imgur.com/QSD3zW2.png'>
 <img src='https://i.imgur.com/w3V2SwM.png'>
+
+
+This composition uses media queries to be responsive to screen sizes:
+
+<img src='https://i.imgur.com/L9cSsfx.png'>
+
+<img src='https://i.imgur.com/b5wgHpC.png'>
+
+<img src='https://i.imgur.com/wCZmixf.png'>
